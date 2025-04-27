@@ -26,7 +26,7 @@ public class mycontroller {
 
     @GetMapping("/bye")
     public String sayGoodBye() {
-        System.out.println("I am in the controller" +"kumar");
+        System.out.println("I am in the controller" +"master");
         return "Good Bye Vikas";
     }
 }
