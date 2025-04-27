@@ -18,4 +18,9 @@ public class mycontroller {
         // This is a comment
         return "Good Evening Vikas";
     }
+    @GetMapping("/hi")
+    public String sayGoodNight() {
+        System.out.println("I am in the controller" +"vikas");
+        return "Good Night Vikas";
+    }
 }
