@@ -20,7 +20,7 @@ public class mycontroller {
     }
     @GetMapping("/hi")
     public String sayGoodNight() {
-        System.out.println("I am in the controller" +"vikas");
+        System.out.println("I am in the controller" +"sony");
         return "Good Night Vikas";
     }
 }
