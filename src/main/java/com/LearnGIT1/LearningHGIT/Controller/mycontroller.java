@@ -8,12 +8,12 @@ public class mycontroller {
     @GetMapping("/")
     public String sayGoodmorning() {
         System.out.println("I am in the controller" +"vikas");
-        return "Hello Vikas";
+        return "Good morning Vikas";
     }
 
     @GetMapping("/hello")
     public String sayGoodEvening() {
         System.out.println("I am in the controller" +"vikas");
-        return "Hello Vikas";
+        return "Good Evening Vikas";
     }
 }
