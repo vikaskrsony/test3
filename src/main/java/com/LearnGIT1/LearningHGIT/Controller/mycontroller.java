@@ -29,5 +29,11 @@ public class mycontroller {
         System.out.println("I am in the controller" +"master");
         return "Good Bye Vikas";
     }
+
+    @GetMapping("/hello")
+    public String sayHello() {
+        System.out.println("I am in the controller" +"master");
+        return "Hello Vikas";
+    }
 }
 
